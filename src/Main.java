@@ -26,6 +26,7 @@ public class Main {
             array[hight] = array[low];
         }
         array[low] = privot;
+        System.out.println(Arrays.toString(array));
         return low;
     }
 }
